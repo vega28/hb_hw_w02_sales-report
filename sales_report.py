@@ -26,3 +26,11 @@ for line in f:
 # print out report of salespeople and how many melons each sold:
 for i in range(len(salespeople)):
     print(f'{salespeople[i]} sold {melons_sold[i]} melons')
+
+
+# --- NTH improvements --- #
+# store salespeople and their associated melons in a dict
+#   keeps associated data together! removes possible errors related to indexing
+#   easier to add/update melons in this format
+# when reading in file: unpack each line directly into variables
+#   mostly a style thing, but more elegant!
